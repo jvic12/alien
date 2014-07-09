@@ -58,9 +58,10 @@ void draw(){
    
   fill(255);
   text("[Based on Kelson Ball's Orbit Simulation]", 10,40);
+  text("Game developed by Jerry, Jonathan, and Joyce", 10,60);
 //  text("w - initial height up", 10, 10);
 //  text("s - initial hieght down", 10, 20);
-  text("c - reset", 10, 60);
+  //text("c - reset", 10, 60);
   
   float ds = distance(new PVector(mouseX, mouseY), new PVector(width/2, height/2 - 60));
   
@@ -128,19 +129,20 @@ void mousePressed(){
     
 }
  
-void keyPressed(){
+/*void keyPressed(){
 //  if (key == 'w' && h < 121){
 //    h++;
 //  }else if (key == 's' && h > 61){
 //    h--;
-   if (key == 'c'){
+   if ((key == 'c')){
     for (int i = Balls.size()-1; i >= 0; i--){
       Balls.remove(i);
-     
-      
-      //???
+    }
+    for (int x = Balls.size(); x <= 0; x++){
+      capsule = 10;
+      count = 0;  
     }
    
   }
-}
+}*/
 
