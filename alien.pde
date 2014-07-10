@@ -133,9 +133,9 @@ void keyPressed(){
 //    h++;
 //  }else if (key == 's' && h > 61){
 //    h--;
-   if (key == 'c'){
-    for (int i = Balls.size()-1; i >= 0; i--){
-      Balls.remove(i);
+//   if (key == 'c'){
+//    for (int i = Balls.size()-1; i >= 0; i--){
+//      Balls.remove(i);
      
       
       //???
