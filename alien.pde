@@ -126,7 +126,9 @@ void mousePressed(){
       Balls.add(new Ball(width/2, height/2 - h, mouseX - width/2, mouseY - (height/2 - h)));
       count++;
     }
-    
+  if (count <= 0 && capsule == 0 && mouseX > 200 && mouseX < 400 && mouseY > 255 && mouseY < 265) {
+    link("http://lsk567.github.io/alien-story");
+  }
 }
  
 /*void keyPressed(){
